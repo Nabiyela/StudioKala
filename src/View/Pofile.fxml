@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1360.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <top>
+      <AnchorPane prefHeight="65.0" prefWidth="1360.0" styleClass="menubar2" stylesheets="@profile.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="41.0" fitWidth="182.0" layoutX="47.0" layoutY="13.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="13.0">
+               <image>
+                  <Image url="@../../../../../Downloads/StudioKala%20(100%20×%2050%20piksel).png" />
+               </image>
+            </ImageView>
+            <FontAwesomeIconView fill="WHITE" glyphName="SEARCH" layoutX="359.0" layoutY="39.0" size="20" AnchorPane.rightAnchor="982.4285717010498" AnchorPane.topAnchor="21.85714340209961" />
+            <Avatar layoutX="1289.0" layoutY="16.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="14.0">
+               <image>
+                  <Image url="@../../../../../Downloads/Desain%20tanpa%20judul%20(3).png" />
+               </image></Avatar>
+            <MenuButton layoutX="1180.0" layoutY="20.0" mnemonicParsing="false" styleClass="panel2" stylesheets="@profile.css" text="CREATE" textFill="#e3e9ef" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="14.0">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+               <font>
+                  <Font name="Tw Cen MT Bold" size="19.0" />
+               </font>
+            </MenuButton>
+            <MenuButton layoutX="1075.0" layoutY="19.0" mnemonicParsing="false" styleClass="panel2" stylesheets="@profile.css" text="EXPO" textFill="#e3e9ef" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="19.0" />
+               </font>
+            </MenuButton>
+            <MenuButton layoutX="952.0" layoutY="18.0" mnemonicParsing="false" styleClass="panel2" stylesheets="@profile.css" text="EXPLORE" textFill="#e3e9ef" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="14.0">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+                  <MenuItem mnemonicParsing="false" text="Action 2" />
+               </items>
+               <font>
+                  <Font name="Tw Cen MT Bold" size="19.0" />
+               </font>
+            </MenuButton>
+            <TextField layoutX="395.0" layoutY="20.0" prefHeight="26.0" prefWidth="358.0" promptText="Search art, exhibition, or profile" AnchorPane.bottomAnchor="19.199999999999996" AnchorPane.leftAnchor="395.0" AnchorPane.rightAnchor="606.6" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="21.0" />
+               </font></TextField>
+         </children>
+         <BorderPane.margin>
+            <Insets left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="background" stylesheets="@profile.css" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </center>
+</BorderPane>

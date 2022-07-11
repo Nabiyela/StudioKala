@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1360.0" styleClass="parent" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dashboard.DashboardController">
+   <top>
+      <AnchorPane blendMode="MULTIPLY" prefHeight="65.0" prefWidth="1360.0" styleClass="menubar" stylesheets="@../CSS/Stylesheet.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="41.0" fitWidth="182.0" layoutX="47.0" layoutY="13.0" AnchorPane.leftAnchor="30.0">
+               <image>
+                  <Image url="@../../../../../Downloads/StudioKala%20(100%20×%2050%20piksel).png" />
+               </image>
+            </ImageView>
+            <FontAwesomeIconView fill="#e3eaec" glyphName="SEARCH" layoutX="359.0" layoutY="39.0" size="20" AnchorPane.rightAnchor="982.4285717010498" AnchorPane.topAnchor="21.85714340209961" />
+            <TextField layoutX="395.0" layoutY="20.0" prefHeight="26.0" prefWidth="358.0" promptText="Search art, exhibition, or profile" AnchorPane.bottomAnchor="19.199999999999996" AnchorPane.leftAnchor="395.0" AnchorPane.rightAnchor="606.6" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="Tw Cen MT" size="21.0" />
+               </font></TextField>
+            <Avatar layoutX="1289.0" layoutY="16.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="14.0">
+               <image>
+                  <Image url="@../../../../../Downloads/Desain%20tanpa%20judul%20(3).png" />
+               </image></Avatar>
+            <MenuButton layoutX="1152.0" layoutY="14.0" mnemonicParsing="false" styleClass="panel" stylesheets="@Stylesheet.css" text="CREATE" textFill="#e3e9ef" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="14.0">
+              <items>
+                <MenuItem mnemonicParsing="false" text="New Art" />
+                <MenuItem mnemonicParsing="false" text="Auction" />
+                  <MenuItem mnemonicParsing="false" text="Exhibition" />
+              </items>
+               <font>
+                  <Font name="Tw Cen MT Bold" size="19.0" />
+               </font>
+            </MenuButton>
+            <MenuButton layoutX="875.0" layoutY="14.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="119.0" styleClass="panel" stylesheets="@Stylesheet.css" text="EXPLORE" textFill="#e3e9ef" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="14.0">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Art" />
+                  <MenuItem mnemonicParsing="false" text="Auction" />
+               </items>
+               <font>
+                  <Font name="Tw Cen MT Bold" size="19.0" />
+               </font>
+            </MenuButton>
+            <MenuButton layoutX="1033.0" layoutY="14.0" lineSpacing="5.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="90.0" styleClass="panel" stylesheets="@Stylesheet.css" text="EXPO" textFill="#e3e9ef" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="19.0" />
+               </font>
+            </MenuButton>
+         </children>
+         <BorderPane.margin>
+            <Insets left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="614.0" prefWidth="448.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="615.0" fitWidth="543.0" layoutX="36.0">
+               <image>
+                  <Image url="@../../../../../Downloads/Desain%20tanpa%20judul.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="614.0" prefWidth="877.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#42859c" layoutX="62.0" layoutY="229.0" strokeWidth="0.0" text="StudioKala is for everyone" wrappingWidth="539.0643920898438">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="48.0" />
+               </font>
+            </Text>
+            <Text fill="#42859c" layoutX="62.0" layoutY="262.0" strokeWidth="0.0" text="For beginners, experts, and everyone-in-between, who are on this journey with you" wrappingWidth="553.4644165039062">
+               <font>
+                  <Font name="Tw Cen MT" size="26.0" />
+               </font>
+            </Text>
+            <Text fill="#42859c" layoutX="62.0" layoutY="351.0" strokeWidth="0.0" text="Expand and value your creativity with StudioKala!" wrappingWidth="698.2643432617188">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="25.0" />
+               </font>
+            </Text>
+            <Button layoutX="62.0" layoutY="399.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" stylesheets="@../CSS/Stylesheet.css" text="Explore">
+               <font>
+                  <Font name="Tw Cen MT" size="29.0" />
+               </font>
+            </Button>
+            <Button defaultButton="true" layoutX="199.0" layoutY="399.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" stylesheets="@../CSS/Stylesheet.css" text="Create">
+               <font>
+                  <Font name="Tw Cen MT" size="29.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <AnchorPane prefHeight="614.0" prefWidth="50.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

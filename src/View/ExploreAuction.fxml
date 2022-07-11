@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1360.0" styleClass="parent" stylesheets="@../CSS/exploreauction.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <top>
+      <AnchorPane prefHeight="65.0" prefWidth="1360.0" styleClass="menubar" stylesheets="@exploreauction.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="41.0" fitWidth="182.0" layoutX="47.0" layoutY="13.0" AnchorPane.leftAnchor="30.0">
+               <image>
+                  <Image url="@../../../../../Downloads/StudioKala%20(100%20×%2050%20piksel).png" />
+               </image>
+            </ImageView>
+            <FontAwesomeIconView fill="WHITE" glyphName="SEARCH" layoutX="359.0" layoutY="39.0" size="20" AnchorPane.rightAnchor="982.4285717010498" AnchorPane.topAnchor="21.85714340209961" />
+            <Avatar layoutX="1289.0" layoutY="16.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="14.0">
+               <image>
+                  <Image url="@../../../../../Downloads/Desain%20tanpa%20judul%20(3).png" />
+               </image></Avatar>
+            <MenuButton layoutX="1180.0" layoutY="20.0" mnemonicParsing="false" styleClass="panel" stylesheets="@profile.css" text="CREATE" textFill="#e3e9ef" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="14.0">
+              <items>
+                <MenuItem mnemonicParsing="false" text="New Art" />
+                <MenuItem mnemonicParsing="false" text="Auction" />
+                  <MenuItem mnemonicParsing="false" text="Exhibition" />
+              </items>
+               <font>
+                  <Font name="Tw Cen MT Bold" size="19.0" />
+               </font>
+            </MenuButton>
+            <MenuButton layoutX="1075.0" layoutY="19.0" mnemonicParsing="false" styleClass="panel" stylesheets="@profile.css" text="EXPO" textFill="#e3e9ef" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="19.0" />
+               </font>
+            </MenuButton>
+            <MenuButton layoutX="952.0" layoutY="18.0" mnemonicParsing="false" styleClass="panel" stylesheets="@profile.css" text="EXPLORE" textFill="#e3e9ef" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="14.0">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Art" />
+                  <MenuItem mnemonicParsing="false" text="Auction" />
+               </items>
+               <font>
+                  <Font name="Tw Cen MT Bold" size="19.0" />
+               </font>
+            </MenuButton>
+            <TextField layoutX="395.0" layoutY="20.0" prefHeight="26.0" prefWidth="358.0" promptText="Search art, exhibition, and profile" style="-fx-background-color: none;" AnchorPane.bottomAnchor="19.199999999999996" AnchorPane.leftAnchor="395.0" AnchorPane.rightAnchor="606.6" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="21.0" />
+               </font></TextField>
+         </children>
+         <BorderPane.margin>
+            <Insets left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="270.0" prefWidth="1350.0" styleClass="background" stylesheets="@../CSS/exploreauction.css" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+         <children>
+            <TabPane layoutX="47.0" layoutY="108.0" mouseTransparent="true" prefHeight="488.0" prefWidth="1340.0" style="-fx-background-color: #c0c8c9; -fx-tab-min-height: 10;" stylesheets="@explorekarya.css" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="85.0">
+              <tabs>
+                <Tab style="-fx-background-color: #c0c8c9; -fx-pref-width: 440;" text="Most Popular">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="142.0" prefWidth="1251.0" style="-fx-background-color: #c0c8c9;">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <Pane layoutX="98.0" layoutY="17.0" prefHeight="410.0" prefWidth="330.0" style="-fx-background-color: ffffff;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="972.0" AnchorPane.topAnchor="27.0">
+                                 <children>
+                                    <Label layoutX="24.0" layoutY="298.0" text="\@ArtbyJoe">
+                                       <font>
+                                          <Font name="Tw Cen MT" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="24.0" layoutY="277.0" text="Sunflower">
+                                       <font>
+                                          <Font name="Tw Cen MT Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="62.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fitHeight="243.0" fitWidth="220.0" layoutX="1.0" layoutY="21.0" x="53.0">
+                                       <image>
+                                          <Image url="@../../../../../Pictures/wallpaper/sunflower+wallpaper_1+pc%20(2).jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Pane layoutX="14.0" layoutY="318.0" prefHeight="88.0" prefWidth="292.0">
+                                       <children>
+                                          <Label layoutX="10.0" text="Form">
+                                             <font>
+                                                <Font name="Tw Cen MT" size="17.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="10.0" layoutY="70.0" text="Status">
+                                             <font>
+                                                <Font name="Tw Cen MT" size="17.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="209.0" layoutY="1.0" text="Highest Bid">
+                                             <font>
+                                                <Font name="Tw Cen MT" size="17.0" />
+                                             </font>
+                                          </Label>
+                                          <FontAwesomeIconView glyphName="DOLLAR" layoutX="16.0" layoutY="49.0" selectionStart="1" />
+                                          <FontAwesomeIconView glyphName="DOLLAR" layoutX="38.0" layoutY="52.0" selectionStart="1" />
+                                          <FontAwesomeIconView glyphName="DOLLAR" layoutX="26.0" layoutY="49.0" selectionStart="1" text="" />
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="508.0" layoutY="27.0" prefHeight="400.0" prefWidth="330.0" style="-fx-background-color: ffffff;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="509.0" AnchorPane.rightAnchor="509.0" AnchorPane.topAnchor="27.0">
+                                 <children>
+                                    <Label layoutX="24.0" layoutY="298.0" text="\@ArtbyKaren">
+                                       <font>
+                                          <Font name="Tw Cen MT" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="24.0" layoutY="277.0" text="Sun-Rise">
+                                       <font>
+                                          <Font name="Tw Cen MT Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="243.0" fitWidth="220.0" layoutX="1.0" layoutY="21.0" x="53.0">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/e3bbbcbe3bd4b8d1614e5c8f2539812b.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Pane layoutX="14.0" layoutY="318.0" prefHeight="88.0" prefWidth="292.0">
+                                       <children>
+                                          <Label layoutX="10.0" text="Form">
+                                             <font>
+                                                <Font name="Tw Cen MT" size="17.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="10.0" layoutY="70.0" text="Status">
+                                             <font>
+                                                <Font name="Tw Cen MT" size="17.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="209.0" layoutY="1.0" text="Highest Bid">
+                                             <font>
+                                                <Font name="Tw Cen MT" size="17.0" />
+                                             </font>
+                                          </Label>
+                                          <FontAwesomeIconView glyphName="DOLLAR" layoutX="16.0" layoutY="49.0" selectionStart="1" />
+                                          <FontAwesomeIconView glyphName="DOLLAR" layoutX="38.0" layoutY="52.0" selectionStart="1" />
+                                          <FontAwesomeIconView glyphName="DOLLAR" layoutX="26.0" layoutY="49.0" selectionStart="1" text="" />
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="951.0" layoutY="22.0" prefHeight="400.0" prefWidth="330.0" style="-fx-background-color: ffffff;" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="27.0">
+                                 <children>
+                                    <Label layoutX="24.0" layoutY="289.0" text="\@ArtbyGogh">
+                                       <font>
+                                          <Font name="Tw Cen MT" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="24.0" layoutY="268.0" text="Starry Night">
+                                       <font>
+                                          <Font name="Tw Cen MT Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="243.0" fitWidth="220.0" layoutX="1.0" layoutY="14.0" x="53.0">
+                                       <image>
+                                          <Image url="@../../../../../Pictures/wallpaper/20201202_002955.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Pane layoutX="15.0" layoutY="309.0" prefHeight="88.0" prefWidth="292.0">
+                                       <children>
+                                          <Label layoutX="10.0" text="Form">
+                                             <font>
+                                                <Font name="Tw Cen MT" size="17.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="10.0" layoutY="70.0" text="Status">
+                                             <font>
+                                                <Font name="Tw Cen MT" size="17.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="209.0" layoutY="1.0" text="Highest Bid">
+                                             <font>
+                                                <Font name="Tw Cen MT" size="17.0" />
+                                             </font>
+                                          </Label>
+                                          <FontAwesomeIconView glyphName="DOLLAR" layoutX="16.0" layoutY="49.0" selectionStart="1" />
+                                          <FontAwesomeIconView glyphName="DOLLAR" layoutX="38.0" layoutY="52.0" selectionStart="1" />
+                                          <FontAwesomeIconView glyphName="DOLLAR" layoutX="26.0" layoutY="49.0" selectionStart="1" text="" />
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab style="-fx-background-color: #c0c8c9; -fx-pref-width: 440;" text="Recent Drops">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #c0c8c9;" />
+                  </content>
+                </Tab>
+                  <Tab style="-fx-background-color: #c0c8c9; -fx-pref-width: 437;" text="Following">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #c0c8c9;" />
+                    </content>
+                  </Tab>
+              </tabs>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets top="-5.0" />
+               </padding>
+            </TabPane>
+            <Label layoutX="593.0" layoutY="26.0" text="Explore Auction" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="Tw Cen MT" size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

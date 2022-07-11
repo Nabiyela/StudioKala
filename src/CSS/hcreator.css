@@ -1,0 +1,17 @@
+.parent{
+    -fx-background-color: #FFFFFF;
+}
+.menubar2{
+    -fx-background-color: #015f6f;
+    -fx-background-radius: 10px;
+}
+.panel2{
+    -fx-background-color: none;
+}
+.background{
+    -fx-background-color: #c0c8c9;
+    -fx-background-radius: 10;
+}
+.header{
+    -fx-background-radius: 10 10 0 0;
+}

@@ -1,0 +1,12 @@
+.button{
+    -fx-background-color: #015f6f;
+    -fx-background-radius: 5px;
+}
+.background{
+    -fx-background-color: #c0c8c9;
+    -fx-background-radius: 10;
+}
+.menubar{
+    -fx-background-color: #015f6f;
+    -fx-background-radius: 10px;
+}
